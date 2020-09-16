@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>OMS.PIGSNey.Application</AssemblyName>
+    <PackageId>OMS.PIGSNey.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>OMS.PIGSNey</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OMS.PIGSNey.Core\OMS.PIGSNey.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OMSAppli\Materialstb\Dto\" />
+    <Folder Include="OMSAppli\Purchasetb\Dto\" />
+    <Folder Include="OMSAppli\Questiontb\Dto\" />
+    <Folder Include="OMSAppli\RealNametb\Dto\" />
+    <Folder Include="OMSAppli\Roletb\Dto\" />
+    <Folder Include="OMSAppli\Tooltb\Dto\" />
+    <Folder Include="OMSAppli\UserInfotb\Dto\" />
+    <Folder Include="OMSAppli\UserRepairsDetailstb\Dto\" />
+    <Folder Include="OMSAppli\UserSubsidiarytb\Dto\" />
+  </ItemGroup>
+</Project>

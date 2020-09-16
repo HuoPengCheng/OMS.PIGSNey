@@ -1,0 +1,618 @@
+DEBUG 2020-09-15 18:47:15,536 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 18:47:15,841 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 18:47:15,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:15,881 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 18:47:16,051 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:47:16,051 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:47:16,051 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:47:16,051 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:47:16,551 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:47:17,407 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 18:47:17,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 18:47:17,514 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 18:47:17,533 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 18:47:17,572 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 18:47:17,726 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 18:47:17,828 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 18:47:17,886 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 18:47:17,887 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 18:47:17,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 18:47:17,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 18:47:17,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 18:47:17,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 18:47:17,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 18:47:17,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 18:47:17,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 18:48:48,458 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 18:48:48,522 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 18:48:48,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:48,544 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 18:48:48,606 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:48:48,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:48:48,606 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:48:48,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:48:48,941 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:48:49,684 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 18:48:49,734 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 18:48:49,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 18:48:49,795 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 18:48:49,832 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 18:48:49,993 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 18:48:50,096 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 18:48:50,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 18:48:50,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 18:48:50,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 18:48:50,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 18:48:50,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 18:48:50,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 18:48:50,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 18:48:50,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 18:48:50,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 18:49:39,288 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 18:49:39,351 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 18:49:39,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:39,373 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 18:49:39,436 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:49:39,436 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:49:39,436 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:49:39,436 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:49:39,809 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:49:40,563 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 18:49:40,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 18:49:40,657 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 18:49:40,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 18:49:40,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 18:49:40,870 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 18:49:40,958 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 18:49:40,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 18:49:40,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 18:49:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 18:49:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 18:49:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 18:49:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 18:49:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 18:49:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 18:49:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 18:55:19,472 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 18:55:19,612 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 18:55:19,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,717 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:19,731 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 18:55:20,014 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:55:20,014 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:55:20,014 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:55:20,014 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 18:55:21,178 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 18:55:23,188 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 18:55:23,317 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 18:55:23,436 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 18:55:23,482 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 18:55:23,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 18:55:23,951 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 18:55:24,258 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 18:55:24,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 18:55:24,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 18:55:24,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 18:55:24,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 18:55:24,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 18:55:24,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 18:55:24,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 18:55:24,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 18:55:24,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 19:06:12,670 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 19:06:12,796 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 19:06:12,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:12,814 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 19:06:12,869 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:06:12,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:06:12,870 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:06:12,870 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:06:13,216 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:06:14,075 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 19:06:14,121 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 19:06:14,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 19:06:14,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 19:06:14,223 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 19:06:14,395 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 19:06:14,571 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 19:06:14,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 19:06:14,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 19:06:14,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 19:06:14,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 19:06:14,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 19:06:14,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 19:06:14,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 19:06:14,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 19:06:14,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 19:09:36,816 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 19:09:37,056 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 19:09:37,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:37,152 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 19:09:37,450 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:09:37,450 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:09:37,450 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:09:37,450 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:09:38,957 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:09:41,412 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 19:09:41,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 19:09:41,657 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 19:09:41,706 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 19:09:41,818 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 19:09:42,241 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 19:09:42,490 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 19:09:42,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 19:09:42,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 19:09:42,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 19:09:42,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 19:09:42,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 19:09:42,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 19:09:42,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 19:09:42,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 19:09:42,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 19:09:53,612 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 19:09:55,900 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\HPC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 19:09:56,329 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 19:09:57,316 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:10:09,667 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMS.PIGSNey.Web.Host.Controllers.HomeController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 19:10:14,040 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 19:10:14,056 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.407ms.
+INFO  2020-09-15 19:10:14,375 [8    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 19:10:14,409 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) in 4719.7042ms
+INFO  2020-09-15 19:10:14,419 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:10:14,538 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 19:10:14,552 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18226.3148ms 302 
+INFO  2020-09-15 19:10:14,681 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 142.8255ms 301 
+INFO  2020-09-15 19:10:14,690 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 19:10:14,882 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 192.2408ms 200 text/html;charset=utf-8
+INFO  2020-09-15 19:10:14,972 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 19:10:14,991 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 19:10:15,012 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 19:10:15,024 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 19:10:15,072 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 19:10:15,136 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 19:10:15,137 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 19:10:15,137 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 19:10:15,140 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 19:10:15,142 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 167.2314ms 200 application/javascript
+INFO  2020-09-15 19:10:15,144 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 166.7407ms 200 application/javascript
+INFO  2020-09-15 19:10:15,150 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 181.3037ms 200 application/javascript
+INFO  2020-09-15 19:10:15,184 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.1115ms 200 text/css
+INFO  2020-09-15 19:10:15,196 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 19:10:15,200 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 224.8105ms 200 application/javascript
+INFO  2020-09-15 19:10:15,527 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 19:10:15,536 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:10:15,557 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 19:10:15,559 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 19:10:15,596 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 19:10:15,615 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-09-15 19:10:15,621 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 21.3736ms.
+INFO  2020-09-15 19:10:15,639 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-09-15 19:10:15,643 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.4931ms 200 image/png
+INFO  2020-09-15 19:10:15,670 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 19:10:15,855 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 19:10:15,858 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 19:10:15,866 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.3035ms 404 
+INFO  2020-09-15 19:10:15,874 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.0777ms 404 
+INFO  2020-09-15 19:10:15,939 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 382.1335ms 200 application/json;charset=utf-8
+INFO  2020-09-15 19:10:15,979 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) in 415.4023ms
+INFO  2020-09-15 19:10:15,983 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:10:15,986 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 460.2029ms 200 application/json; charset=utf-8
+DEBUG 2020-09-15 19:45:42,936 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 19:45:43,107 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 19:45:43,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,127 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:43,135 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 19:45:43,240 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:45:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:45:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:45:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 19:45:43,626 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 19:45:44,490 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 19:45:44,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 19:45:44,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 19:45:44,628 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 19:45:44,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 19:45:44,815 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 19:45:44,924 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 19:45:44,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 19:45:44,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 19:45:44,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 19:45:44,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 19:45:44,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 19:45:44,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 19:45:44,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 19:45:44,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 19:45:44,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 19:45:49,713 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 19:45:50,205 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\HPC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 19:45:50,343 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 19:45:50,532 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:45:56,403 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMS.PIGSNey.Web.Host.Controllers.HomeController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 19:45:58,184 [13   ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 19:45:58,194 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6942ms.
+INFO  2020-09-15 19:45:58,610 [16   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 19:45:58,625 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) in 2211.162ms
+INFO  2020-09-15 19:45:58,630 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:45:58,662 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 19:45:58,668 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8326.0677ms 302 
+INFO  2020-09-15 19:45:58,727 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.807ms 301 
+INFO  2020-09-15 19:45:58,729 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 19:45:58,799 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.4566ms 200 text/html;charset=utf-8
+INFO  2020-09-15 19:45:58,824 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 19:45:58,826 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 19:45:58,827 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 19:45:58,830 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 19:45:58,833 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 19:45:58,886 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 19:45:58,888 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 19:45:58,889 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.514ms 200 application/javascript
+INFO  2020-09-15 19:45:58,892 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 64.0647ms 200 application/javascript
+INFO  2020-09-15 19:45:58,904 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 19:45:58,906 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 19:45:58,909 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 19:45:58,915 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.5854ms 200 application/javascript
+INFO  2020-09-15 19:45:58,918 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.3049ms 200 text/css
+INFO  2020-09-15 19:45:58,921 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.5838ms 200 application/javascript
+INFO  2020-09-15 19:45:59,310 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 19:45:59,317 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:45:59,330 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 19:45:59,358 [12   ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 19:45:59,360 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 19:45:59,369 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.359ms.
+INFO  2020-09-15 19:45:59,391 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 19:45:59,436 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 19:45:59,437 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 19:45:59,441 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5361ms 404 
+INFO  2020-09-15 19:45:59,443 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.3665ms 404 
+INFO  2020-09-15 19:45:59,541 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) in 206.7595ms
+INFO  2020-09-15 19:45:59,544 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 19:45:59,548 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 238.7982ms 200 application/json; charset=utf-8
+INFO  2020-09-15 19:45:59,571 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.6311ms 200 application/json;charset=utf-8
+DEBUG 2020-09-15 20:22:48,576 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 20:22:48,662 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 20:22:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:48,684 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 20:22:48,740 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:22:48,740 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:22:48,740 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:22:48,740 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:22:49,070 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:22:49,805 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 20:22:49,852 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 20:22:49,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 20:22:49,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 20:22:49,950 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 20:22:50,121 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 20:22:50,210 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 20:22:50,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 20:22:50,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 20:22:50,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 20:22:50,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 20:22:50,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 20:22:50,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 20:22:50,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 20:22:50,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 20:22:50,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 20:22:52,255 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 20:22:52,502 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\HPC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 20:22:52,564 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 20:22:52,660 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:22:55,212 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMS.PIGSNey.Web.Host.Controllers.HomeController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 20:22:55,985 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 20:22:55,990 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3829ms.
+INFO  2020-09-15 20:22:56,154 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 20:22:56,161 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) in 944.3997ms
+INFO  2020-09-15 20:22:56,163 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:22:56,178 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 20:22:56,181 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3617.7372ms 302 
+INFO  2020-09-15 20:22:56,208 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.6343ms 301 
+INFO  2020-09-15 20:22:56,210 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 20:22:56,249 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.3661ms 200 text/html;charset=utf-8
+INFO  2020-09-15 20:22:56,267 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 20:22:56,270 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 20:22:56,276 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 20:22:56,278 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 20:22:56,280 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 20:22:56,304 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 20:22:56,304 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 20:22:56,306 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.7382ms 200 application/javascript
+INFO  2020-09-15 20:22:56,308 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.6734ms 200 application/javascript
+INFO  2020-09-15 20:22:56,317 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 20:22:56,318 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 20:22:56,319 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 20:22:56,323 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.6223ms 200 text/css
+INFO  2020-09-15 20:22:56,325 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.0605ms 200 application/javascript
+INFO  2020-09-15 20:22:56,326 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.1151ms 200 application/javascript
+INFO  2020-09-15 20:22:56,806 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 20:22:56,812 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:22:56,820 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 20:22:56,839 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 20:22:56,849 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.6943ms.
+INFO  2020-09-15 20:22:56,851 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 20:22:56,870 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 20:22:56,965 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 20:22:56,966 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 20:22:56,970 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.4503ms 404 
+INFO  2020-09-15 20:22:56,971 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.4503ms 404 
+INFO  2020-09-15 20:22:57,027 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) in 203.0116ms
+INFO  2020-09-15 20:22:57,028 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:22:57,030 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 225.5699ms 200 application/json; charset=utf-8
+INFO  2020-09-15 20:22:57,044 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.1278ms 200 application/json;charset=utf-8
+DEBUG 2020-09-15 20:54:29,419 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 20:54:29,678 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 20:54:29,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:29,697 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 20:54:29,801 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:54:29,801 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:54:29,801 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:54:29,801 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 20:54:30,152 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 20:54:30,913 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 20:54:30,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 20:54:31,013 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 20:54:31,030 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-15 20:54:31,068 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 20:54:31,230 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 20:54:31,325 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 20:54:31,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 20:54:31,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 20:54:31,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 20:54:31,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 20:54:33,643 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 20:54:33,951 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\HPC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 20:54:34,045 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 20:54:34,148 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:54:36,690 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMS.PIGSNey.Web.Host.Controllers.HomeController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 20:54:37,478 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 20:54:37,485 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5159ms.
+INFO  2020-09-15 20:54:37,669 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 20:54:37,677 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) in 981.4817ms
+INFO  2020-09-15 20:54:37,679 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:54:37,696 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 20:54:37,700 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3654.6609ms 302 
+INFO  2020-09-15 20:54:37,727 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.3161ms 301 
+INFO  2020-09-15 20:54:37,730 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 20:54:37,771 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.4166ms 200 text/html;charset=utf-8
+INFO  2020-09-15 20:54:37,791 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 20:54:37,793 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 20:54:37,795 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 20:54:37,797 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 20:54:37,798 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 20:54:37,853 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 20:54:37,853 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 20:54:37,855 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.3907ms 200 application/javascript
+INFO  2020-09-15 20:54:37,857 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.3977ms 200 application/javascript
+INFO  2020-09-15 20:54:37,867 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 20:54:37,871 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 20:54:37,873 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 78.7007ms 200 application/javascript
+INFO  2020-09-15 20:54:37,876 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.2696ms 200 text/css
+INFO  2020-09-15 20:54:37,891 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 20:54:37,894 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 101.2215ms 200 application/javascript
+INFO  2020-09-15 20:54:38,339 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 20:54:38,346 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:54:38,357 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-15 20:54:38,376 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-15 20:54:38,386 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 20:54:38,389 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 10.8356ms.
+INFO  2020-09-15 20:54:38,407 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 20:54:38,453 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 20:54:38,454 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 20:54:38,459 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4275ms 404 
+INFO  2020-09-15 20:54:38,460 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.2882ms 404 
+INFO  2020-09-15 20:54:38,553 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) in 193.3591ms
+INFO  2020-09-15 20:54:38,554 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-15 20:54:38,556 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 218.1941ms 200 application/json; charset=utf-8
+INFO  2020-09-15 20:54:38,570 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.2352ms 200 application/json;charset=utf-8
+DEBUG 2020-09-16 10:18:04,087 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-16 10:18:04,361 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-16 10:18:04,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.Web.Host.Startup.PIGSNeyWebHostModule, OMS.PIGSNey.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyWebCoreModule, OMS.PIGSNey.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyApplicationModule, OMS.PIGSNey.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.PIGSNeyCoreModule, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyEntityFrameworkModule, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:04,388 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-16 10:18:04,522 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-16 10:18:04,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-16 10:18:04,523 [1    ] o.Configuration.LanguageManagementConfig - Converted PIGSNey (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-16 10:18:04,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-16 10:18:04,882 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMS.PIGSNey.EntityFrameworkCore.PIGSNeyDbContext, OMS.PIGSNey.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-16 10:18:05,788 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-16 10:18:05,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-16 10:18:05,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-16 10:18:05,914 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PIGSNey
+DEBUG 2020-09-16 10:18:05,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-16 10:18:06,113 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-16 10:18:06,245 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMS.PIGSNey.MultiTenancy.Tenant, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMS.PIGSNey.Authorization.Users.User, OMS.PIGSNey.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-16 10:18:06,308 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-16 10:18:06,308 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-16 10:18:06,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.CreateUserDto
+DEBUG 2020-09-16 10:18:06,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Users.Dto.UserDto
+DEBUG 2020-09-16 10:18:06,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-16 10:18:06,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-16 10:18:06,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.Roles.Dto.PermissionDto
+DEBUG 2020-09-16 10:18:06,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-16 10:18:06,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMS.PIGSNey.MultiTenancy.Dto.TenantDto
+INFO  2020-09-16 10:18:08,528 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-16 10:18:08,847 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\HPC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-16 10:18:08,938 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-16 10:18:09,050 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-16 10:18:11,536 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMS.PIGSNey.Web.Host.Controllers.HomeController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-16 10:18:12,339 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-16 10:18:12,344 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4017ms.
+INFO  2020-09-16 10:18:12,541 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-16 10:18:12,549 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host) in 1008.0845ms
+INFO  2020-09-16 10:18:12,552 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.HomeController.Index (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-16 10:18:12,568 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-16 10:18:12,571 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3634.4007ms 302 
+INFO  2020-09-16 10:18:12,600 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.7604ms 301 
+INFO  2020-09-16 10:18:12,603 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-16 10:18:12,643 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.1576ms 200 text/html;charset=utf-8
+INFO  2020-09-16 10:18:12,661 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-16 10:18:12,664 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-16 10:18:12,666 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-16 10:18:12,668 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-16 10:18:12,670 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-16 10:18:12,703 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-16 10:18:12,703 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-16 10:18:12,703 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\HPC\Desktop\OMS.PIGSNey\5.7.0\aspnet-core\src\OMS.PIGSNey.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-16 10:18:12,703 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-16 10:18:12,705 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.3304ms 200 application/javascript
+INFO  2020-09-16 10:18:12,707 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.5533ms 200 application/javascript
+INFO  2020-09-16 10:18:12,711 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.9756ms 200 application/javascript
+INFO  2020-09-16 10:18:12,712 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.4792ms 200 text/css
+INFO  2020-09-16 10:18:12,721 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-16 10:18:12,723 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.4913ms 200 application/javascript
+INFO  2020-09-16 10:18:13,029 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-16 10:18:13,036 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-16 10:18:13,047 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController (OMS.PIGSNey.Web.Host).
+INFO  2020-09-16 10:18:13,070 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) - Validation state: Valid
+INFO  2020-09-16 10:18:13,072 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-16 10:18:13,085 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 12.5512ms.
+INFO  2020-09-16 10:18:13,112 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-16 10:18:13,224 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-16 10:18:13,226 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-16 10:18:13,230 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.2027ms 404 
+INFO  2020-09-16 10:18:13,232 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.1936ms 404 
+INFO  2020-09-16 10:18:13,253 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host) in 204.186ms
+INFO  2020-09-16 10:18:13,255 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMS.PIGSNey.Web.Host.Controllers.AntiForgeryController.SetCookie (OMS.PIGSNey.Web.Host)'
+INFO  2020-09-16 10:18:13,256 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 229.2241ms 200 application/json; charset=utf-8
+INFO  2020-09-16 10:18:13,264 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 191.3446ms 200 application/json;charset=utf-8
